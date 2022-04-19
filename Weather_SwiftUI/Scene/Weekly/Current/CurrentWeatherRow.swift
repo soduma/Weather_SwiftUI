@@ -51,8 +51,8 @@ struct CurrentWeatherRow: View {
 }
 
 
-struct CurrentWeatherRow_Previews: PreviewProvider {
-    static var previews: some View {
-        CurrentWeatherRow(viewModel: CurrentWeatherRowViewModel())
-    }
-}
+//struct CurrentWeatherRow_Previews: PreviewProvider {
+//    static var previews: some View {
+//        CurrentWeatherRow(viewModel: CurrentWeatherRowViewModel())
+//    }
+//}

@@ -11,7 +11,12 @@ struct WeeklyWeatherView: View {
     var body: some View {
         NavigationView {
             VStack {
-//                NavigationLink(destination: <#T##() -> _#>, label: <#T##() -> _#>
+                NavigationLink {
+                    CurrentWeatherView()
+                } label: {
+                    Text("say hi")
+                }
+
             }
         }
     }

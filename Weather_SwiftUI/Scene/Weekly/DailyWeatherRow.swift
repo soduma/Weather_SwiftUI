@@ -37,8 +37,8 @@ struct DailyWeatherRow: View {
     }
 }
 
-struct DailyWeatherRow_Previews: PreviewProvider {
-    static var previews: some View {
-        DailyWeatherRow(viewModel: DailyWeatherRowViewModel())
-    }
-}
+//struct DailyWeatherRow_Previews: PreviewProvider {
+//    static var previews: some View {
+//        DailyWeatherRow(viewModel: DailyWeatherRowViewModel(item: WeeklyForecastResponse.Item(date: <#T##Date#>, main: WeeklyForecastResponse.MainClass(temp: 22.2), weather: <#T##[WeeklyForecastResponse.Weather]#>)))
+//    }
+//}
